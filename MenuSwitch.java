@@ -19,24 +19,25 @@ public class MenuSwitch {
             case 1:
                 System.out.println("\nIntroduzca el lado del cuadrado: ");
                 lado = Double.parseDouble(System.console().readLine());
-                System.out.println("\nEl área del cuadrado es "+(lado*lado)+" u2");
+                System.out.println("\nEl área del cuadrado es " + (lado * lado) + " u2");
                 break;
             case 2:
                 System.out.println("\nIntroduzca el base del rectángulo: ");
                 base = Double.parseDouble(System.console().readLine());
                 System.out.println("\nIntroduzca el altura del rectángulo: ");
                 altura = Double.parseDouble(System.console().readLine());
-                System.out.println("\nEl área del rectágulo es "+(base*altura)+" u2");
+                System.out.println("\nEl área del rectágulo es " + (base * altura) + " u2");
+                break;
+            case 3:
+                System.out.println("\nIntroduzca el base del triángulo: ");
+                base = Double.parseDouble(System.console().readLine());
+                System.out.println("\nIntroduzca el altura del triángulo: ");
+                altura = Double.parseDouble(System.console().readLine());
+                System.out.println("\nEl área del triángulo es " + (base * altura) / 2 + " u2");
                 break;
             default:
                 System.out.println("\nla opción no es correcta: ");
                 break;
         }
-    }
-
-        
-
-
-
     }
 }
