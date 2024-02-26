@@ -10,6 +10,8 @@ public class Bucles {
          * while: repetir un conjunto de instrucciones siempre y cuando cumplan
          * una condicion.
          * 
+         * do while:
+         * 
          *        */
 
          System.out.println("Numeros del 1 al 10");
@@ -17,12 +19,18 @@ public class Bucles {
            // System.out.println(i);
          //}
 
-         int i = 1; // contador
+  /*     int i = 10; // contador
+         while (i >= 1) {
+            System.out.println(i);
+            i--;
+         } */
 
-         while (i < 11) {
+         int i = 1;
+         do {
             System.out.println(i);
             i++;
-         }
+         } while (i < 11);
+
         
     }
 }
