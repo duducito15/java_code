@@ -41,3 +41,13 @@ public class MenuSwitch {
         }
     }
 }
+
+/*
+1.- Escribe un programa que pidad por teclado un día de la semana y que indique que cuross
+tocan.
+2.- Escriba un programa que pida una hora por teclado y muestre luego buenos días, buenas tardes
+o buenas noches según la hora. para ello considerar los siguientes horarios: 6 - 12, 13 - 18 y 
+de 18 - 24
+Solo se debe tener en cuenta las horas.
+
+*/
