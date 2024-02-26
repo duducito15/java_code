@@ -15,7 +15,17 @@ public class NumerosAleatorios {
         } */
         System.out.println("Diez Numeros aleatorios con enteros");
         for (int i = 1; i < 11; i++) {
-            System.out.println((int)(Math.random()*20+1));
+            System.out.println((int)(Math.random()*(20-14))+15);
         }
+
+        /*
+ * Ejercicio 1: Escribe un programa que muestre la tirada de tres dados. 
+ * Se debe mostrar la suma total (los puntos que suman entre los tres dados)
+ * 
+ * Ejercicio 2: Muestra 50 numeros enteros aleatorios entre 100 y 199 
+ * (ambos incluidos) separados por espacios. Muestre tambien el Maximo, 
+ * el minimo y la media.
+ * 
+ */
     }
 }
