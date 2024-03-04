@@ -3,6 +3,7 @@ public class Array01 {
         // Como definimos un array
         int[] arreglo;
         double[] notas;
+        //int[] horasTrabajadas = new int[5];
         //espacios que va tener el arreglo
         arreglo = new int[4];
         notas = new double[5];
