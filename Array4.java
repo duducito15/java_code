@@ -23,12 +23,14 @@ public class Array4 {
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] == valor1) {
                 numeros[i] = valor2;
-                System.out.print(verde + numeros[i]+"-");
+                System.out.print(
+                     + numeros[i]+"-");
             }
             else{
                 System.out.print(blanco + numeros[i]+"-");
             }
         }
-
+        //REALICE UN PROGRAMA QUE GENERE 8 NUMEROS ENTEROS ALEATORIOS Y QUE LUEGO MUESTRE ESOS NUMEROS JUNTO
+        //A LA PALABRA PAR O IMPAR SEGUN CORRESPONDA.
     }
 }
