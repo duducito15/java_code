@@ -15,5 +15,13 @@ public class Funciones1 {
         } else {
             System.out.println("El " + n + " no es primo");
         }
+
+        if (Matematicas.Varios.esCapicua(n)) {
+            System.out.println("El " + n + ", si es capicua");
+        } else {
+            System.out.println("El " + n + ", no es capicua");
+        }
+
+
     } 
 }

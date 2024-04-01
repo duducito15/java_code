@@ -10,4 +10,19 @@ public class Varios {
         }
         return true;
     }
+
+    //Funcion que retorne si un numero es capicua
+    public static boolean esCapicua(int n){
+        int original = n;
+        int inverso = 0;
+
+        while (n > 0) {
+            int digito = n % 10;
+            inverso = inverso * 10 + digito;
+            n = n / 10;
+        }
+        return original == inverso;
+    }
+     //Funcion que devuelva el siguiente numero primo,del numero que pasamos como parametro
+
 }
